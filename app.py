@@ -11,7 +11,7 @@ ANTHROPIC_KEY = os.getenv("ANTHROPIC_API_KEY")
 client = anthropic.Anthropic(api_key=ANTHROPIC_KEY)
 
 # Streamlit UI
-st.title("📄 Claude Resume Tailoring Assistant")
+st.title("📄 Resume Tailoring Assistant")
 st.markdown("Paste the job description below to get a tailored resume in JSON format for Google Docs script.")
 
 # Text input
